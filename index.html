@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="feed.css">
+
+
+</head>
+
+<body>
+  <var-header>
+    <header>
+      <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top">
+        <div class="container navbar-container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="#"><img src="https://www.1stop.ai/images/logos/1Stop%2001.png"
+                alt=".1stop.ai-img"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#Projects">PROJECT</a></li>
+              <li><a href="#footer">CONTACT</a></li>
+              <li><a href="#course">COURSES</a></li>
+              </li>
+            </ul>
+          </div>
+          <div class="top-social">
+            <ul id="top-social-menu">
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Inventors</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </var-header>
+  <section class="full-width-img">
+    <div id="contactForm" class="contactForm">
+      <a id="closeBtn" onclick="closeForm()" href="javascript:void();"><i class="fa fa-times"></i></a>
+      <h3 style="
+    margin-top: 0px;
+">Feedback <br>Card</h3>
+      <form method="POST" name="Submit-GoogleSheet" target="_self" id="form " class="smileys">
+        <input type="text" id="firstName" name="Name" placeholder="Your Name" required autofocus>
+        <input type="email" id="email" name="Email" placeholder="Enter Your Email" required>
+        <textarea id="review" cols="30" name="Review" rows="10" placeholder="Write your Feedback..."
+          required></textarea>
+        <button type="submit" id="btn" class="home-button" name="submit">Submit</button>
+      </form>
+
+    </div>
+    <img class="home-image" src="https://www.1stop.ai/images/iitk_logo.png" alt="IIT-img">
+    <div class="home-text">
+      <h2 style="line-height: 40px;"> <span style=" font-family: 'Roboto', sans-serif;">
+          <strong>
+            <h1 style="display: inline;">1Stop</h1>
+          </strong>
+        </span> in association with <strong>
+          <span style=" font-family: 'Roboto', sans-serif;">
+            <h1 style="display: inline;">Techfest, (IIT Bombay)
+            </h1>
+          </span>
+        </strong>
+        <span style="display:block;"> brings to you Industrial Projects from our </span>
+        <strong>
+          <h1 class="home-com">Partnered Companies</h1>
+        </strong></h2>
+    </div>
+    <div class="home-text" style="margin-top: 50px; ">
+      <button class="home-button">SEARCH PROJECTS</button>
+    </div>
+  </section>
+  </section>
+
+  <var-body id="var-body">
+    <div class="contenedorCards" id="course">
+      <div class="card" style="z-index: 8;">
+        <div class="wrapper">
+          <div class="imgProd"
+            style="bottom: 170px;background-image: url(https://onestop-prod.s3.ap-south-1.amazonaws.com/internship_certificates/course_0_1624791963.jpg);">
+          </div>
+          <div class="infoProd">
+            <p class="nombreProd">Partnered Company: Talakunchi Networks</p>
+            <a href="#var-body" class="extraInfo">Cyber Security.</a>
+            <div class="actions">
+              <div class="preciosGrupo">
+                <p style="text-align:left;display: inline;"><img
+                    src="https://www.1stop.ai/images/icons/icon-availability.svg" style="width: 25px;" alt="">
+                  <strong><span style="color: red;">1</span>/50 Seats</strong> </p>
+              </div>
+              <div class="icono action aFavs">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                  <path
+                    d="M47 5c-6.5 0-12.9 4.2-15 10-2.1-5.8-8.5-10-15-10A15 15 0 0 0 2 20c0 13 11 26 30 39 19-13 30-26 30-39A15 15 0 0 0 47 5z">
+                  </path>
+                </svg>
+              </div>
+              <div class="icono action alCarrito">
+                <button class="home-button" style="margin-left: 35px;">View<span
+                    style="opacity: 0;">s</span>Program</button>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="z-index: 7;">
+        <div class="wrapper">
+          <div class="imgProd"
+            style="bottom: 170px;background-image: url(https://onestop-prod.s3.ap-south-1.amazonaws.com/internship_certificates/course_0_1624792123.jpg);">
+          </div>
+          <div class="infoProd">
+            <p class="nombreProd">Partnered Company: Raise Digital</p>
+            <a href="#var-body" class="extraInfo">Web Development.</a>
+            <div class="actions">
+              <div class="preciosGrupo">
+                <p style="text-align:left;display: inline;"><img
+                    src="https://www.1stop.ai/images/icons/icon-availability.svg" style="width: 25px;" alt="">
+                  <strong>8/50 Seats</strong> </p>
+              </div>
+              <div class="icono action aFavs">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                  <path
+                    d="M47 5c-6.5 0-12.9 4.2-15 10-2.1-5.8-8.5-10-15-10A15 15 0 0 0 2 20c0 13 11 26 30 39 19-13 30-26 30-39A15 15 0 0 0 47 5z">
+                  </path>
+                </svg>
+              </div>
+              <div class="icono action alCarrito">
+                <button class="home-button" style="
+    margin-left: 35px;
+">View<span style="opacity: 0;">s</span>Program</button>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="z-index: 6;">
+        <div class="wrapper">
+          <div class="imgProd"
+            style="bottom: 170px;background-image: url(https://onestop-prod.s3.ap-south-1.amazonaws.com/internship_certificates/course_0_1624792264.jpg);">
+          </div>
+          <div class="infoProd">
+            <p class="nombreProd">Partnered Company: Plot My Data
+            </p>
+            <a href="#var-body" class="extraInfo">Data Science. </a>
+            <div class="actions">
+              <div class="preciosGrupo">
+                <p style="text-align:left;display: inline;"><img
+                    src="https://www.1stop.ai/images/icons/icon-availability.svg" style="width: 25px;" alt="">
+                  <strong>7/50 Seats</strong> </p>
+              </div>
+              <div class="icono action aFavs">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                  <path
+                    d="M47 5c-6.5 0-12.9 4.2-15 10-2.1-5.8-8.5-10-15-10A15 15 0 0 0 2 20c0 13 11 26 30 39 19-13 30-26 30-39A15 15 0 0 0 47 5z">
+                  </path>
+                </svg>
+              </div>
+              <div class="icono action alCarrito">
+                <button class="home-button" style="
+    margin-left: 35px;
+">View<span style="opacity: 0;">s</span>Program</button>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="z-index: 5;">
+        <div class="wrapper">
+          <div class="imgProd"
+            style="bottom: 170px; background-image: url(https://onestop-prod.s3.ap-south-1.amazonaws.com/internship_certificates/course_0_1628433775.jpeg);">
+          </div>
+          <div class="infoProd">
+            <p class="nombreProd">Partnered Company: VYORIUS</p>
+            <a href="#var-body" class="extraInfo">Robotics.</a>
+            <div class="actions">
+              <div class="preciosGrupo">
+                <p style="text-align:left;display: inline;"><img
+                    src="https://www.1stop.ai/images/icons/icon-availability.svg" style="width: 25px;" alt="">
+                  <strong> <span style="color: red;">4</span> /50 Seats</strong> </p>
+              </div>
+              <div class="icono action aFavs">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                  <path
+                    d="M47 5c-6.5 0-12.9 4.2-15 10-2.1-5.8-8.5-10-15-10A15 15 0 0 0 2 20c0 13 11 26 30 39 19-13 30-26 30-39A15 15 0 0 0 47 5z">
+                  </path>
+                </svg>
+              </div>
+              <div class="icono action alCarrito">
+                <button class="home-button" style="
+    margin-left: 35px;
+">View<span style="opacity: 0;">s</span>Program</button>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="z-index: 4;">
+        <div class="wrapper">
+          <div class="imgProd"
+            style="bottom: 170px;background-image: url(https://onestop-prod.s3.ap-south-1.amazonaws.com/internship_certificates/course_0_1628433775.jpeg);">
+          </div>
+          <div class="infoProd">
+            <p class="nombreProd">Partnered Company: VYORIUS
+            </p>
+            <a href="#var-body" class="extrainfo">Internet of things</a>
+            <div class="actions">
+              <div class="preciosGrupo">
+                <p style="text-align:left;display: inline;"><img
+                    src="https://www.1stop.ai/images/icons/icon-availability.svg" style="width: 25px;" alt="">
+                  <strong>10/50 Seats</strong> </p>
+              </div>
+              <div class="icono action aFavs">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                  <path
+                    d="M47 5c-6.5 0-12.9 4.2-15 10-2.1-5.8-8.5-10-15-10A15 15 0 0 0 2 20c0 13 11 26 30 39 19-13 30-26 30-39A15 15 0 0 0 47 5z">
+                  </path>
+                </svg>
+              </div>
+              <div class="icono action alCarrito">
+                <button class="home-button" style="
+    margin-left: 35px;
+">View<span style="opacity: 0;">s</span>Program</button>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="z-index: 3;">
+        <div class="wrapper">
+          <div class="imgProd"
+            style="bottom: 170px;background-image: url(https://onestop-prod.s3.ap-south-1.amazonaws.com/internship_certificates/course_0_1624792057.jpg);">
+          </div>
+          <div class="infoProd">
+            <p class="nombreProd">Partnered Company: Any Voice
+            </p>
+            <a href="#var-body" class="extraInfo">Webpreneurship.</a>
+            <div class="actions">
+              <div class="preciosGrupo">
+                <p style="text-align:left;display: inline;"><img
+                    src="https://www.1stop.ai/images/icons/icon-availability.svg" style="width: 25px;" alt="">
+                  <strong> <span style="color: red;">3</span> /50 Seats</strong> </p>
+              </div>
+              <div class="icono action aFavs">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                  <path
+                    d="M47 5c-6.5 0-12.9 4.2-15 10-2.1-5.8-8.5-10-15-10A15 15 0 0 0 2 20c0 13 11 26 30 39 19-13 30-26 30-39A15 15 0 0 0 47 5z">
+                  </path>
+                </svg>
+              </div>
+              <div class="icono action alCarrito">
+                <button class="home-button" style="
+    margin-left: 35px;
+">View<span style="opacity: 0;">s</span>Program</button>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="z-index: 2;">
+        <div class="wrapper">
+          <div class="imgProd"
+            style="bottom: 170px;background-image: url(https://onestop-prod.s3.ap-south-1.amazonaws.com/internship_certificates/course_0_1624792002.jpg);">
+          </div>
+          <div class="infoProd">
+            <p class="nombreProd">Partnered Company: Personifwy
+            </p>
+            <a href="#var-body" class="extraInfo">Artificial Intelligence.</a>
+            <div class="actions">
+              <div class="preciosGrupo">
+                <p style="text-align:left;display: inline;"><img
+                    src="https://www.1stop.ai/images/icons/icon-availability.svg" style="width: 25px;" alt="">
+                  <strong>8/50 Seats</strong> </p>
+              </div>
+              <div class="icono action aFavs">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                  <path
+                    d="M47 5c-6.5 0-12.9 4.2-15 10-2.1-5.8-8.5-10-15-10A15 15 0 0 0 2 20c0 13 11 26 30 39 19-13 30-26 30-39A15 15 0 0 0 47 5z">
+                  </path>
+                </svg>
+              </div>
+              <div class="icono action alCarrito">
+                <button class="home-button" style="
+    margin-left: 35px;
+">View<span style="opacity: 0;">s</span>Program</button>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="wrapper">
+          <div class="imgProd"
+            style="bottom: 170px;background-image: url(https://onestop-prod.s3.ap-south-1.amazonaws.com/internship_certificates/course_0_1624792087.jpg);">
+          </div>
+          <div class="infoProd">
+            <p class="nombreProd">Partnered Company: Fox Trading</p>
+            <a href="#var-body" class="extraInfo">Machine Learning.</a>
+            <div class="actions">
+              <div class="preciosGrupo">
+                <p style="text-align:left;display: inline;"><img
+                    src="https://www.1stop.ai/images/icons/icon-availability.svg" style="width: 25px;" alt="">
+                  <strong>11/50 Seats</strong> </p>
+              </div>
+              <div class="icono action aFavs">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                  <path
+                    d="M47 5c-6.5 0-12.9 4.2-15 10-2.1-5.8-8.5-10-15-10A15 15 0 0 0 2 20c0 13 11 26 30 39 19-13 30-26 30-39A15 15 0 0 0 47 5z">
+                  </path>
+                </svg>
+              </div>
+              <div class="icono action alCarrito" id="Projects">
+                <button class="home-button" style="margin-left: 35px;">View<span
+                    style="opacity: 0;">s</span>Program</button>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </var-body>
+  <var-company>
+    <h1 style="text-align: center; font-family: 'Roboto', sans-serif; color: #727475;">Our Partnered Companies</h1>
+    <ul class="smol-css-grid">
+      <li><img class=" brand-logo"
+          src="https://onestop-prod.s3.ap-south-1.amazonaws.com/partnered_companies/icn_img_1623228704.png" alt=""></li>
+      <li><img class=" brand-logo"
+          src="https://onestop-prod.s3.ap-south-1.amazonaws.com/certifier/icn_img_1613197275.png" alt=""></li>
+      <li><img class=" brand-logo"
+          src="https://onestop-prod.s3.ap-south-1.amazonaws.com/partnered_companies/icn_img_1624693714.png" alt=""></li>
+      <li><img class=" brand-logo"
+          src="https://onestop-prod.s3.ap-south-1.amazonaws.com/partnered_companies/icn_img_1629457632.png" alt=""></li>
+      <li><img class=" brand-logo"
+          src="https://onestop-prod.s3.ap-south-1.amazonaws.com/partnered_companies/icn_img_1624632163.png" alt=""></li>
+    </ul>
+
+  </var-company>
+  <var-do>
+    <div
+      style="color: white; padding:50px;background-image: url(https://www.1stop.ai/images/parallax/why_us.jpg); background-position: center;background-position-y: center;">
+      <h1 style="margin-top: 50px; font-family: 'Roboto', sans-serif;"><img
+          src="https://www.1stop.ai/images/icons/icon-check-white.svg" alt="" style="width: 55px;">
+        <span style="text-decoration: underline; left: 20px; position: relative; "> Do the right thing, </span><br>
+        <img src="https://www.1stop.ai/images/icons/icon-check-white.svg" alt="" style="width: 55px; opacity: 0;"> <span
+          style="left: 20px; position: relative;"> at the right time.</span>
+      </h1>
+      <div class="row">
+        <div class="col-md-4 do-thingh">01.Learn<br>
+          <span class="do-thingh-p">Byte sized learning content</span></div>
+        <div class="col-md-4 do-thingh">02. Gain Experience <br>
+          <span class="do-thingh-p">Work on industry-approved capstone
+            projects</span> </div>
+        <div class="col-md-4 do-thingh">03. Earn <br>
+          <span class="do-thingh-p">Opportunities to work on Live
+            Projects</span> </div>
+      </div>
+    </div>
+  </var-do>
+  <var-footer>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <div class="widget1">
+              <div class="logo">
+                <a href="#"> <img src="https://www.1stop.ai/images/logos/1Stop%2001.png" class="img-fluid"
+                    alt="logo-img"></a>
+              </div>
+              <p>
+                Our Vision lies to bring in a technology-oriented career-driven Industrial Experience into the
+                aspirant’s career with Great Value.
+                <p style="text-align: center;">“Learn, Grow, Prosper”</p>
+              </p>
+              <div class="socialLinks">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-whatsapp"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="widget3">
+              <h5>
+                Pages
+              </h5>
+              <ul>
+                <li>
+                  <a href="#">
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Login
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Register
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="widget4">
+              <h5>
+                Documents
+              </h5>
+              <ul>
+                <li>
+                  <a href="#">
+                    Terms of Use
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Refund Policy
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyRightArea">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p>&copy; Copyright 2021 1Stop Innovation</p>
+              <p class="footer-bottom">+91 6366213571 | support@1stop.ai</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </var-footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
