@@ -412,7 +412,7 @@ body {
 /* # Section Full Width Image */
 
 .full-width-img {
-    background: url('https://www.1stop.ai/images/parallax/gif3.gif') no-repeat center center;
+    background: url('gif3.gif') no-repeat center center;
     background-size: cover;
     padding-top: 100px;
     /* text-align: center; */
